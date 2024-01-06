@@ -1,0 +1,24 @@
+{
+    "routes": [
+        {
+            "src": "/report",
+            "dest": "http://server.lsdns.top:2024/report"
+        },
+        {
+            "src": "/json/stats.json",
+            "dest": "http://server.lsdns.top:2024/json/stats.json"
+        },
+        {
+            "src": "/detail",
+            "dest": "http://server.lsdns.top:2024/detail"
+        },
+        {
+            "src": "/map",
+            "dest": "http://server.lsdns.top:2024/map"
+        },
+        {
+            "src": "/i",
+            "dest": "http://server.lsdns.top:2024/i"
+        }
+    ]
+}
