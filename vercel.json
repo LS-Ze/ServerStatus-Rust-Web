@@ -2,23 +2,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "http://server.lsdns.top:8080/report"
+            "dest": "https://online.lsdns.top/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "http://server.lsdns.top:8080/stats.json"
+            "dest": "https://online.lsdns.top/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "http://server.lsdns.top:8080/detail"
+            "dest": "https://online.lsdns.top/detail"
         },
         {
             "src": "/map",
-            "dest": "http://server.lsdns.top:8080/map"
+            "dest": "https://online.lsdns.top/map"
         },
         {
             "src": "/i",
-            "dest": "http://server.lsdns.top:8080/i"
+            "dest": "https://online.lsdns.top/i"
         }
     ]
 }
