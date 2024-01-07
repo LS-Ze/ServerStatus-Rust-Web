@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>    <meta charset="UTF-8" />
+
+<head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>服务器状态</title>
+    <title>
+        服务器状态
+    </title>
     <link rel="shortcut icon" href="./assets/favicon-65bd9f8a.png" type="image/x-icon">
     <script type="module" crossorigin src="./assets/index-0fc6a0d8.js">
     </script>
     <link rel="stylesheet" href="./assets/index-5527a084.css">
-    <style>body { width:100%; height:100%; background:url(https://api.vvhan.com/api/girl) no-repeat; -moz-background-size:cover; /*背景图片拉伸以铺满全屏*/ -ms-background-size:cover; -webkit-background-size:cover; background-size:cover; backdrop-filter:blur(1px)}</style>
-  </head>
-  
-  <body>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background: url(https://api.vvhan.com/api/girl) no-repeat;
+            -moz-background-size: cover;
+            /*背景图片拉伸以铺满全屏*/
+            -ms-background-size: cover;
+            -webkit-background-size: cover;
+            background-size: cover;
+            backdrop-filter: blur(1px)
+        }
+    </style>
+</head>
+
+<body>
     <div class="px-3 sm:px-6 min-h-screen relative">
-      <h1 style="background:white;" class="text-4xl font-bold py-4" align="center">服务器监控</h1>
-      <noscript>
-        <p>
-          <strong>浏览此页面需要启用 JavaScript.</strong>
-        </p>
-        <p>
-          <strong>Please enable JavaScript to view this page.</strong>
-        </p>
-      </noscript>
-      <div id="app">
-      </div>
-      <div style="background:white;" class="text-center absolute left-0 bottom-0 py-4 w-full">Powered by
-        <a class="text-blue-500" href="https://github.com/zdz/ServerStatus-Rust" target="_blank">ServerStatus-Rust</a>. Theme
-        <a class="text-blue-500" href="https://github.com/orilights/ServerStatus-Theme-Light" target="_blank">Light</a>by
-        <a class="text-blue-500" href="https://orilight.top/" target="_blank">OriLight</a>
-        <h2 style="position:absolute; text-align:center; bottom:0; left:0; right:0; background:white;" class="hitokoto" id="yiyancon"></h2>
-        <script type="text/javascript" src="https://international.v1.hitokoto.cn?encode=js&amp;charset=utf-8&amp;&amp;c=j&amp;c=k&amp;c=l"></script>
-      </div>
+        <h1 style="background-color: rgba(255,255,255,0.2);" class="text-4xl font-bold py-4" align="center">
+            服务器监控
+        </h1>
+        <noscript>
+            <p>
+                <strong>
+                    浏览此页面需要启用 JavaScript.
+                </strong>
+            </p>
+            <p>
+                <strong>
+                    Please enable JavaScript to view this page.
+                </strong>
+            </p>
+        </noscript>
+        <div id="app">
+        </div>
+        <div style="background-color: rgba(255,255,255,0.2);" class="text-center absolute left-0 bottom-0 py-4 w-full">
+            <div>
+                <a class="hitokoto" id="yiyancon">
+                    </h2>
+                    <script type="text/javascript" src="https://international.v1.hitokoto.cn?encode=js&amp;charset=utf-8&amp;&amp;c=j&amp;c=k&amp;c=l">
+                    </script>
+            </div>
+            Powered by
+            <a class="text-blue-500" href="https://github.com/zdz/ServerStatus-Rust" target="_blank">
+                ServerStatus-Rust
+            </a>
+            . Theme
+            <a class="text-blue-500" href="https://github.com/orilights/ServerStatus-Theme-Light" target="_blank">
+                Light
+            </a>
+            by
+            <a class="text-blue-500" href="https://orilight.top/" target="_blank">
+                OriLight
+            </a>
+        </div>
     </div>
-  </body>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script src="https://myhkw.cn/player/js/player.js" id="myhk" key="demo" m="1"></script>
+</body>
 
 </html>
