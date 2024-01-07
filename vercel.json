@@ -6,4 +6,5 @@
     { "source": "/map", "destination": "https://tunnel.lsdns.top/map" , "statusCode": 301 },
     { "source": "/i", "destination": "https://tunnel.lsdns.top/i" , "statusCode": 301 }
   ]
+  "regions": ["hkg1"]
 }
