@@ -1,24 +1,24 @@
 {
     "routes": [
         {
-            "src": "/report",
-            "dest": "http://check.lsdns.top/report"
+            "src": "/report/*",
+            "dest": "http://check.lsdns.top/report/*"
         },
         {
-            "src": "/json/stats.json",
-            "dest": "http://check.lsdns.top/json/stats.json"
+            "src": "/json/*",
+            "dest": "http://check.lsdns.top/json/*"
         },
         {
-            "src": "/detail",
-            "dest": "http://check.lsdns.top/detail"
+            "src": "/detail/*",
+            "dest": "http://check.lsdns.top/detail/*"
         },
         {
-            "src": "/map",
-            "dest": "http://check.lsdns.top/map"
+            "src": "/map/*",
+            "dest": "http://check.lsdns.top/map/*"
         },
         {
-            "src": "/i",
-            "dest": "http://check.lsdns.top/i"
+            "src": "/i/*",
+            "dest": "http://check.lsdns.top/i/*"
         }
     ]
 }
