@@ -1,8 +1,9 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "http://check.lsdns.top/$1"
+  "redirects": [
+    { 
+      "source": "/(.*)", 
+      "destination": "http://check.lsdns.top/", 
+      "statusCode": 301 
     }
   ]
 }
