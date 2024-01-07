@@ -6,4 +6,5 @@ body {
 	/*背景图片拉伸以铺满全屏*/    -ms-background-size:cover;
 	-webkit-background-size:cover;
 	background-size:cover;
+	filter: blur(15px);/*为了模糊更明显，调高模糊度*/
 }
