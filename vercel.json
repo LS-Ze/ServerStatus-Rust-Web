@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    { "source": "/report", "destination": "https://server.lsdns.top/report" },
-    { "source": "/json/stats.json", "destination": "https://server.lsdns.top/json/stats.json" },
-    { "source": "/detail", "destination": "https://server.lsdns.top/detail" },
-    { "source": "/map", "destination": "https://server.lsdns.top/map" },
-    { "source": "/i", "destination": "https://server.lsdns.top/i" }
+    { "source": "/report", "destination": "http://dns.lsdns.top:8181/report" },
+    { "source": "/json/stats.json", "destination": "http://dns.lsdns.top:8181/json/stats.json" },
+    { "source": "/detail", "destination": "http://dns.lsdns.top:8181/detail" },
+    { "source": "/map", "destination": "http://dns.lsdns.top:8181/map" },
+    { "source": "/i", "destination": "http://dns.lsdns.top:8181/i" }
   ]
 }
