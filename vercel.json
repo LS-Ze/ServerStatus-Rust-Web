@@ -1,6 +1,6 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/(.*)","dest": "http://check.lsdns.top/$1"}
+      {"src": "/(.*)","dest": "https://tunnel.lsdns.top/$1"}
     ]
 }
