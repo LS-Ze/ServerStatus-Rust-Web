@@ -3,7 +3,7 @@
     { 
       "source": "/(.*)", 
       "destination": "http://check.lsdns.top/$1", 
-      "statusCode": 301 
+      "statusCode": 302
     }
   ]
 }
