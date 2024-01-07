@@ -2,11 +2,11 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "https://server.lsdns.top/report"
+            "dest": "https://tunnel.lsdns.top/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "https://server.lsdns.top/stats.json"
+            "dest": "https://tunnel.lsdns.top/json/stats.json"
         },
         {
             "src": "/detail",
@@ -14,11 +14,11 @@
         },
         {
             "src": "/map",
-            "dest": "https://server.lsdns.top/map"
+            "dest": "https://tunnel.lsdns.top/map"
         },
         {
             "src": "/i",
-            "dest": "https://server.lsdns.top/i"
+            "dest": "https://tunnel.lsdns.top/i"
         }
     ]
 }
