@@ -1,7 +1,7 @@
 {
   "rewrites": [
     { "source": "/:url*", "destination": "http://check.lsdns.top/:url*" },
-    { "source": "/:url*/", "destination": "http://check.lsdns.top/:url*/" }
+    { "source": "/:url*/", "destination": "http://check.lsdns.top/:url*/" },
     { "source": "/report?*", "destination": "http://check.lsdns.top/report" },
     { "source": "/json/stats.json?*", "destination": "http://check.lsdns.top/json/stats.json?*" },
     { "source": "/detail?*", "destination": "http://check.lsdns.top/detail?*" },
