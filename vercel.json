@@ -1,24 +1,8 @@
 {
     "routes": [
         {
-            "src": "/report/*",
-            "dest": "http://check.lsdns.top/report/*"
+            "src": "/*",
+            "dest": "http://check.lsdns.top/*"
         },
-        {
-            "src": "/json/*",
-            "dest": "http://check.lsdns.top/json/*"
-        },
-        {
-            "src": "/detail/*",
-            "dest": "http://check.lsdns.top/detail/*"
-        },
-        {
-            "src": "/map/*",
-            "dest": "http://check.lsdns.top/map/*"
-        },
-        {
-            "src": "/i/*",
-            "dest": "http://check.lsdns.top/i/*"
-        }
     ]
 }
