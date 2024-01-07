@@ -1,10 +1,10 @@
 {
+  "regions": ["hkg1"],
   "redirects": [
     { "source": "/report", "destination": "https://tunnel.lsdns.top/report" , "statusCode": 301 },
     { "source": "/json/stats.json", "destination": "https://tunnel.lsdns.top/json/stats.json" , "statusCode": 301 },
     { "source": "/detail", "destination": "https://tunnel.lsdns.top/detail" , "statusCode": 301 },
     { "source": "/map", "destination": "https://tunnel.lsdns.top/map" , "statusCode": 301 },
     { "source": "/i", "destination": "https://tunnel.lsdns.top/i" , "statusCode": 301 }
-  ],
-  "regions": ["hkg1"]
+  ]
 }
