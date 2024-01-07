@@ -1,24 +1,9 @@
 {
-    "routes": [
-        {
-            "src": "/report",
-            "dest": "https://tunnel.lsdns.top/report"
-        },
-        {
-            "src": "/json/stats.json",
-            "dest": "https://tunnel.lsdns.top/json/stats.json"
-        },
-        {
-            "src": "/detail",
-            "dest": "https://server.lsdns.top/detail"
-        },
-        {
-            "src": "/map",
-            "dest": "https://tunnel.lsdns.top/map"
-        },
-        {
-            "src": "/i",
-            "dest": "https://tunnel.lsdns.top/i"
-        }
-    ]
+  "rewrites": [
+    { "source": "/report", "destination": "https://tunnel.lsdns.top/report" },
+    { "source": "/json/stats.json", "destination": "https://tunnel.lsdns.top/json/stats.json" },
+    { "source": "/detail", "destination": "https://server.lsdns.top/detail" },
+    { "source": "/map", "destination": "https://tunnel.lsdns.top/map" }
+    { "source": "/i", "destination": "https://tunnel.lsdns.top/i" }
+  ]
 }
