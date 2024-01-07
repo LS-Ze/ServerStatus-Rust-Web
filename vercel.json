@@ -2,23 +2,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "https://tunnel.lsdns.top/report"
+            "dest": "http://check.lsdns.top/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "https://tunnel.lsdns.top/json/stats.json"
+            "dest": "http://check.lsdns.top/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "https://tunnel.lsdns.top/detail"
+            "dest": "http://check.lsdns.top/detail"
         },
         {
             "src": "/map",
-            "dest": "https://tunnel.lsdns.top/map"
+            "dest": "http://check.lsdns.top/map"
         },
         {
             "src": "/i",
-            "dest": "https://tunnel.lsdns.top/i"
+            "dest": "http://check.lsdns.top/i"
         }
     ]
 }
