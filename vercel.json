@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/:match/:url*", "destination": "http://check.lsdns.top/:url*" }
+    { "source": "/:match/:url*", "destination": "http://check.lsdns.top/:match/:url*" }
   ]
 }
