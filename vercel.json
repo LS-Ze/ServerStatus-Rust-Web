@@ -3,23 +3,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "http://dns.lsdns.top:8880/report"
+            "dest": "http://check.lsdns.top:8880/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "http://dns.lsdns.top:8880/json/stats.json"
+            "dest": "http://check.lsdns.top:8880/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "http://dns.lsdns.top:8880/detail"
+            "dest": "http://check.lsdns.top:8880/detail"
         },
         {
             "src": "/map",
-            "dest": "http://dns.lsdns.top:8880/map"
+            "dest": "http://check.lsdns.top:8880/map"
         },
         {
             "src": "/i",
-            "dest": "http://dns.lsdns.top:8880/i"
+            "dest": "http://check.lsdns.top:8880/i"
         }
     ]
 }
