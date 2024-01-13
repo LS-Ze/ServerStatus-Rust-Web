@@ -3,23 +3,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "http://check.lsdns.top:8880/report"
+            "dest": "https://server-come.lsdns.top/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "http://check.lsdns.top:8880/json/stats.json"
+            "dest": "https://server-come.lsdns.top/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "http://check.lsdns.top:8880/detail"
+            "dest": "https://server-come.lsdns.top/detail"
         },
         {
             "src": "/map",
-            "dest": "http://check.lsdns.top:8880/map"
+            "dest": "https://server-come.lsdns.top/map"
         },
         {
             "src": "/i",
-            "dest": "http://check.lsdns.top:8880/i"
+            "dest": "https://server-come.lsdns.top/i"
         }
     ]
 }
