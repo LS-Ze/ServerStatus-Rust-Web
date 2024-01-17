@@ -3,23 +3,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "https://server-come.lsdns.top/report"
+            "dest": "https://tunnel.lsdns.top/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "https://server-come.lsdns.top/json/stats.json"
+            "dest": "https://tunnel.lsdns.top/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "https://server-come.lsdns.top/detail"
+            "dest": "https://tunnel.lsdns.top/detail"
         },
         {
             "src": "/map",
-            "dest": "https://server-come.lsdns.top/map"
+            "dest": "https://tunnel.lsdns.top/map"
         },
         {
             "src": "/i",
-            "dest": "https://server-come.lsdns.top/i"
+            "dest": "https://tunnel.lsdns.top/i"
         }
     ]
 }
