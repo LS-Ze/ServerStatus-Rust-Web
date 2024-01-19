@@ -3,23 +3,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "https://tunnel.lsdns.top/report"
+            "dest": "https://check.lsdns.top:8443/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "https://tunnel.lsdns.top/json/stats.json"
+            "dest": "https://check.lsdns.top:8443/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "https://tunnel.lsdns.top/detail"
+            "dest": "https://check.lsdns.top:8443/detail"
         },
         {
             "src": "/map",
-            "dest": "https://tunnel.lsdns.top/map"
+            "dest": "https://check.lsdns.top:8443/map"
         },
         {
             "src": "/i",
-            "dest": "https://tunnel.lsdns.top/i"
+            "dest": "https://check.lsdns.top:8443/i"
         }
     ]
 }
